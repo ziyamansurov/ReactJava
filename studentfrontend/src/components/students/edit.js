@@ -18,7 +18,7 @@ export function EditStudent({open, handleClose, data, setRefetch}){
         setName(e.target.value)
     }
     const handleSurnameChange=(e)=>{
-        setSurname(e.target.valur)
+        setSurname(e.target.value)
     }
     const handleSave=()=>{
         let student={
